@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<link type="text/css" rel="stylesheet"  href="stylesheet.css" />
+
+<title>Countdown Timer</title>
+</head>
+
+<body onload="input()">
+
+<h1 style="text-align:center"><u>Time Remaining</u></h1>
+<p id = "event"></p>
+<p id="demo"></p>
+
+<div id="time" style="background-color:#00bfff">
+<p id="years"><b>Year</b></p>
+</div>
+
+<div style="background-color:#40ff00">
+<p id="mons"><b>Months</b></p>
+</div>
+
+<div style="background-color:#ff00ff">
+<p id="days"><b>Days</b></p>
+</div>
+
+<div style="background-color:#ffff00">
+<p id="hours"><b>Hours</b></p>
+</div>
+
+<div style="background-color:#ffbf00">
+	<p id="mins"><b>Minutes</b></p>
+</div>
+
+<div style="background-color:	#ff8000">
+	<p id="secs"><b>Seconds</b></p>
+</div>
+
+<p>
+<button onclick="func()">Start</button>
+<button onclick="clearInterval(myVar)">Stop</button>
+<button onclick="reset()">Reset</button>
+</p>
+
+<script src="javascript.js"></script>
+
+</body>
+</html>
